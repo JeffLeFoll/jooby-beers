@@ -44,3 +44,19 @@ Maintenant nous allons servir les documents statiques
     assets("/img/**", Paths.get("../img"));
     assets("/**");
 ```
+
+Pour tester que cela marche, vous pouvez créer un répertoir `public` et y ajouter le fichier `index.html` suivant : 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jooby Beers</title>
+</head>
+<body>
+    <h1>Hello from Jooby's public folder !</h1>
+</body>
+</html>
+```
+En allant sur [localhost:8080/index.hml](http://localhost:8080/index.hml) vous devriez voir votre page s'afficher.  
+De même, en allant sur [localhost:8080/img/ChimayTriple.jpg](http://localhost:8080/img/ChimayTriple.jpg) vous devriez voir une image s'afficher.

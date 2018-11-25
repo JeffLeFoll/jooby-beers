@@ -13,8 +13,9 @@ Ce tutoriel à apour but de reprendre le périmètre de [express-beer](https://g
 Le repertoire `workspace` est le répertoire du travail où vous allez réaliser ce tutoriel. Ce dernier est divisé en plusieurs étapes, chacune ayant son propre répertoire :  
 
 - Step-01 : [Hello World](./step-01)
-- Step-01 : [Basic routing](./step-02)
-- Step-01 : [JSON Beers](./step-03)
-- Step-01 : [Serving the webapp](./step-04)
-- Step-01 : [Mongo Beers](./step-05)
-- Step-01 : [Pour les curieux, remplaçons Java par Kotlin](./step-06)
+- Step-02 : [Basic routing](./step-02)
+- Step-03 : [JSON Beers](./step-03)
+- Step-04 : [Refactoring avec contrôleurs](./step-04)
+- Step-05 : [Serving the webapp](./step-04)
+- Step-06 : [Mongo Beers](./step-05)
+- Step-07 : [Pour les curieux, remplaçons Java par Kotlin](./step-06)

@@ -67,5 +67,6 @@ public class BeersControler {
 }
 ```
 
-Enfin pour que ce contrôleur soit utilisé, dans notre classe `App.java`, nous allons remplacer l'instruction `get("/beers", ...)` par `use(BeersControler.class)`.
+Enfin pour que ce contrôleur soit utilisé dans notre classe `App.java`, nous allons remplacer l'instruction `get("/beers", ...)` par `use(BeersControler.class)`.
 
+Maintenant nous pouvons faire la même chose pour la ressource `/beer/:beerId`.

@@ -2,11 +2,11 @@
 
 Java Jooby version of [express-beer](https://github.com/LostInBrittany/express-beers)
 
-## Quesl sont les objectifs du tutoriel ?
+## Quels sont les objectifs du tutoriel ?
 
-En suivant ce tutoriel vous prendrez à construire des APIs en Java, rapidement et facilement.  
-Pour ce faire nous allons utiliser le mcro framework [Jooby](https://jooby.org).  
-Ce tutoriel à apour but de reprendre le périmètre de [express-beer](https://github.com/LostInBrittany/express-beers) mais en Java.
+En suivant ce tutoriel vous apprendrez à construire des APIs en Java, rapidement et facilement.  
+Pour ce faire nous allons utiliser le micro framework [Jooby](https://jooby.org).  
+Ce tutoriel à pour but de reprendre le périmètre de [express-beer](https://github.com/LostInBrittany/express-beers) mais en Java.
 
 ## Comment ce tutoriel est organisé ?
 

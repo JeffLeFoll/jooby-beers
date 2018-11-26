@@ -1,4 +1,4 @@
-# Step-04 : Refactoring with contoler
+# Step-04 : Refactoring with Controler
 
 ## Les contrôleurs, l'autre façon de faire
 

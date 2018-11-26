@@ -2,16 +2,15 @@
 
 ## Les contrôleurs, l'autre façon de faire
 
-Ce que l'on vient de voir avec Jooby permet de créer rapidement et simplement une API Rest dans le ùême style que ExpressJS.  
-Pour faire un Poc rapide c'est très bien, mais lors que l'application grossit cela devient vite compliqué de s'y retrouver.  
+Ce que l'on vient de voir avec Jooby permet de créer rapidement et simplement une API Rest dans le même style que ExpressJS.  
+Pour faire un PoC (Proof of concept) rapide c'est très bien, mais lors que l'application grossit cela devient vite compliqué de s'y retrouver.  
 
-Jooby propose avec les contrôleurs une façon de mieux structurer son API pour plus 
-de lisibilité et de facilitée de modification.  
+Jooby propose avec les contrôleurs une façon de mieux structurer son API pour plus de lisibilité et de facilitée de modification.  
 
 Nous allons donc refactorer notre application pour les utiliser.  
 Un contrôleur est une simple classe Java décorée des annotations `@Path`, `@GET`, `@POST`, ...
 
-Nous alons d'abord crééer le contrôleur pour la ressource `/beers` : 
+Nous alons d'abord créer le contrôleur pour la ressource `/beers` : 
 
 ```Java
 public class BeersControler {
@@ -43,7 +42,7 @@ public class BeersControler {
 }
 ```
 
-Maintenant nous allons indiquer que ce que le contrôleur doit faire lorsqu'il receoit une requête de type `/GET`.
+Maintenant nous allons indiquer que ce que le contrôleur doit faire lorsqu'il recoit une requête de type `/GET`.
 
 ```Java
 @Path("/beers")

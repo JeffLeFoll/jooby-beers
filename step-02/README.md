@@ -1,8 +1,8 @@
 # Step-02 : Basic routing
 
-## Récupérer le répertoir des images
+## Récupérer le répertoire des images
 
-Nous avons besoin de récupérer le répertoir `img` pour le mettre dans le répertoire `workspace`.
+Nous avons besoin de récupérer le répertoire `img` pour le mettre dans le répertoire `workspace`.
 Une fois cela fait nous pouvons continuer.
 
 ## Définir les routes
@@ -45,7 +45,7 @@ Maintenant nous allons servir les documents statiques
     assets("/**");
 ```
 
-Pour tester que cela marche, vous pouvez créer un répertoir `public` et y ajouter le fichier `index.html` suivant : 
+Pour tester que cela marche, vous pouvez créer un répertoire `public` et y ajouter le fichier `index.html` suivant : 
 ```html
 <!DOCTYPE html>
 <html lang="en">

@@ -17,7 +17,7 @@ use(new Jackson());
 
 ## Récupérer les fichiers des bières
 
-Nous avons besoin de récupérer le répertoir `beers` pour le mettre dans le répertoire `workspace`.
+Nous avons besoin de récupérer le répertoire `beers` pour le mettre dans le répertoire `workspace`.
 Une fois cela fait nous pouvons continuer.
 
 ## Qu'est-ce qu'une bière ?

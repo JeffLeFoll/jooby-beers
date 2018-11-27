@@ -44,9 +44,9 @@ L'IIB contient du code qui sera toujours éxecuté à chaque fois qu'une instanc
 
 ## Lançons notre application
 Pour démarer le serveur, il suffit de lancer la commande : 
-`mvnw jooby:run`  
+`mvn jooby:run`  
 ou si vous utilisez le maven wrapper : 
-`mvnw jooby:run`
+`./mvnw jooby:run`
 
 Dans la console vous devriez voir si tout va bien :  
 ```shell

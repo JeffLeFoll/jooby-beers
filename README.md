@@ -17,5 +17,5 @@ Le repertoire `workspace` est le répertoire du travail où vous allez réaliser
 - Step-03 : [JSON Beers](./step-03)
 - Step-04 : [Refactoring avec contrôleurs](./step-04)
 - Step-05 : [Serving the webapp](./step-05)
-- Step-06 : [Mongo Beers](./step-06)
-- Step-07 : [Pour les curieux, remplaçons Java par Kotlin](./step-07)
+- Step-06 : [Mongo Beers](./step-06) (Not ready)
+- Step-07 : [Pour les curieux, remplaçons Java par Kotlin](./step-07) (Not Ready)

@@ -5,13 +5,13 @@
 Maintenant nous allons reprendre le TD polymer3-beers.  
 Soit vous reprennez ce que vous avez fait, soit vous partez de la step-08.
 
-Vos construisez votre application avec la commande `polymer build` (si vous n'avez pas la ligne de commande polymer installez la : `npm i -g polymer-cli`).
+Vous construisez votre application avec la commande `polymer build` (si vous n'avez pas la ligne de commande polymer installez la : `npm i -g polymer-cli`).
 
 Normalement vous devez maintenant avoir un répertoir `build\default`, copiez le contenu de ce répertoir `default` dans votre répertoir `public`.
 
 ## Modifier l'application pour appeler l'API Java
 
-Partout où vous faisiez un `fetch('/data/beers/beers.json`, remplacez le par un appel à l'API `fetch('/beers)`.
+Partout où vous faisiez un `fetch('/data/beers/beers.json)`, remplacez le par un appel à l'API `fetch('/beers)`.
 
 Dans *beer-list.js*
 

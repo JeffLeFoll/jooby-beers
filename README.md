@@ -18,3 +18,6 @@ Le repertoire `workspace` est le répertoire du travail où vous allez réaliser
 - Step-04 : [Refactoring avec contrôleurs](./step-04)
 - Step-05 : [Serving the webapp](./step-05)
 - Step-06 : [Mongo Beers](./step-06)  
+
+## Tips : 
+Si durant le TP vous avez des problèmes pour démarer votre appli Jooby à cause d'un problème de port déjà utilisé, regardez dans le fichier `step-01/conf/application.conf` pour voir comment changer le port de Jooby.

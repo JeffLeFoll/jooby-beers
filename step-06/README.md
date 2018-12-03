@@ -16,7 +16,7 @@ Let's say you already have your beers in a MongoDB database. Now we are going to
 >   ```  
 ## Ajouter les dépendances à Mongo
 
-Nous allons avoir besoin d'ajouter la dépendance vers le drive Mongo DB, pour ce faire, il suffit d'ajouter le [module mongodb de Jooby](https://jooby.org/doc/mongodb/) :  
+Nous allons avoir besoin d'ajouter la dépendance vers le driver Mongo DB, pour ce faire, il suffit d'ajouter le [module mongodb de Jooby](https://jooby.org/doc/mongodb/) :  
 ```xml
     <dependency>
       <groupId>org.jooby</groupId>
@@ -30,14 +30,16 @@ C'est dans ce fichier que nous allons mettre les paramètre de connection à not
 db = "mongodb://localhost/test"
 ```
 
-Enfin nous n'avons plus qu'a déclarer dans notre code que l'on utilise Jooby. Dans `App.java` :  
+Enfin nous n'avons plus qu'à déclarer dans notre code que l'on utilise Jooby.  
+Dans `App.java` :  
 ```Java
 use(new Mongodb());
 ```
 
-Et voilà, nous somme pret  à utiliser mongo dans notre code. Le soucis est que le driver mongodb Java n'est pas très facile à utiliser, alors nous allons utiliser [Jongo](http://jongo.org/) qui est une petite librairie JAva qui permet d'écrire nos requetes presque comme si on le faisait dans le shell mongo.  
-En plus il a un [module Jongo pour Jooby :)](https://jooby.org/doc/jongo/).  
-On ajoute la dépendance :  
+Et voilà, nous sommes pret  à utiliser mongo dans notre code.  
+Le soucis est que le driver mongodb Java n'est pas très facile à utiliser, alors nous allons utiliser [Jongo](http://jongo.org/) qui est une petite librairie Java qui permet d'écrire nos requetes presque comme si on le faisait dans le shell mongo.  
+En plus il y a un [module Jongo pour Jooby :)](https://jooby.org/doc/jongo/).  
+On ajoute donc la dépendance :  
 ```xml
 <dependency>
   <groupId>org.jooby</groupId>
@@ -45,7 +47,7 @@ On ajoute la dépendance :
   <version>1.5.1</version>
 </dependency>
 ```
-Et on déclare son utilisation : 
+Et on déclare son utilisation :  
 ```Java
 use(new Jongoby());
 ```

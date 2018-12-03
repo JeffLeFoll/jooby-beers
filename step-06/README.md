@@ -52,7 +52,7 @@ Et on déclare son utilisation :
 use(new Jongoby());
 ```
 
-## Demander une liste de bierres
+## Demander une liste de bières
 Nous allons maintenant ecrire une requete sur la base mongo pour récuperer la liste de bières :  
 ```Java
     get("/beers", req -> {
